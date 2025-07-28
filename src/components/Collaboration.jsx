@@ -48,7 +48,7 @@ const Collaboration = () => {
     }
   ];
 
-  const getStatusColor = (status: string) => {
+  const getStatusColor = (status) => {
     switch (status) {
       case "Online": return "bg-success";
       case "Training": return "bg-secondary";
